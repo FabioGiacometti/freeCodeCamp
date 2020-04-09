@@ -91,8 +91,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const optionTwoId = cardsChosenId[1];
     if (cardsChosen[0] === cardsChosen[1]) {
       alert("Encontraste un par!");
-      cards[optionOneId].setAttribute("src", "images/cabbage.png");
-      cards[optionTwoId].setAttribute("src", "images/cabbage.png");
+      cards[optionOneId].setAttribute("src", "images/white.png");
+      cards[optionTwoId].setAttribute("src", "images/white.png");
       cardsWon.push(cardsChosen);
     } else {
       cards[optionOneId].setAttribute("src", "images/toast.png");
